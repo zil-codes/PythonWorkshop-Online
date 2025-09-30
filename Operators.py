@@ -59,41 +59,53 @@
 # 4. Logical Operators
 # =================================================
 # Used with conditions
+# Rules
+# True + True = True
+# True + False = False
+# false + False = False
 
 # x = True
 # y = False
-#
-# print(x and y)  # False (Both must be True)
-# print(x or y)   # True  (At least one True)
-# print(not x)    # False (Opposite of x)
 
+# Rule for "and" operator True + True = True/ True + False = False/ false + False = False
+# print(x and y)  # False (Both must be True)
+# print  (x==True and y==False)
+
+# Rule for "or" operator True + False = True
+# print(x or y)   # True  (At least one True)
+
+# print(not x)    # False (Opposite of x)
+# print (not (x==True and y==False))
 
 # 5. Identity Operators
 # =====================================================
 # Compare if two variables are the same object in memory
 
-# x = [1, 2, 3]
-# y = [1, 2, 3]
-# z = x
-#
-# print(x is y)      # False (different objects with same values)
-# print(x == y)      # True  (values are equal)
-# print(x is z)      # True  (same object in memory)
+x = [1, 2, 3]
+y = x
+z = [1, 2, 3]
+
+# print(x is y)      # True (values are equal) is operator
+# print(x is z)      # False (different objects with same values)
+# print(x is not z)      # True  (same object in memory) is not operator
 
 # 6. Membership Operators
 # ====================================================
-# Check if a value is inside a sequence (string, list, tuple, etc.)
+# Check if a value is inside a sequence (string, list, tuple, etc.) in, not in
 
 # numbers = [1, 2, 3, 4, 5]
 # print(3 in numbers)     # True
 # print(10 not in numbers) # True
 
+
 # 5. Bitwise Operators
 # =====================================================
 # Work at the binary level
 
-a = 6   # (110 in binary)
-b = 3   # (011 in binary)
+# a = 5   # (5 in binary- 0101, 0 =false and 1 true)
+# b = 3   # (3 in binary- 0011)
+# print (a & b) # (1 in binary- 0001)
+# Rule for "&" operator True + True = True/ True + False = False/ false + False = False
 
 # print(a & b)   # 2  (AND → 010)
 # print(a | b)   # 7  (OR → 111)
