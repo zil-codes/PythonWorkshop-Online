@@ -1,5 +1,5 @@
 # What is a Data Type?
-# -----------------------
+# =====================================
 # data types define the kind of value a variable can hold and how it can be used.
 # every value stored in a variable has a type.
 # That type tells what kind of data it is and what operations you can do with it.
@@ -17,7 +17,7 @@
 
 
 # 1. Numeric Types
-# -------------------------
+# ======================================
 # Used to store numbers.
 # int → Integer numbers (positive, negative, zero)
 # float → Decimal (floating-point) numbers
@@ -33,7 +33,7 @@ print (type(c))
 
 
 # 2. Sequence Types
-# ---------------------------------------------
+# ========================================
 # Ordered collections of items.
 # str → String (text data)
 # list → Ordered, mutable collection
@@ -62,7 +62,7 @@ print (type(c))
 
 
 # Set Types
-#--------------------------------------------
+#==========================================
 # Unordered collections of unique items.
 # set → Mutable set of unique value
 # frozenset → Immutable version of set
@@ -73,7 +73,7 @@ print (type(c))
 # print(type(fs))
 
 # Mapping Type
-# ----------------------------------
+# =========================================
 # dict → Key-value pairs (like JSON objects)
 # student = {"name": "Zillur", "age": 25, "city": "California"}
 
@@ -83,7 +83,7 @@ print (type(c))
 # print(type(student))
 
 # 5. Boolean Type
-# ---------------------------------------
+# ============================================
 # Represents truth values.
 # bool → True or False
 # is_valid = True
@@ -96,7 +96,7 @@ print (type(c))
 # print(type(is_valid))
 
 # Binary Types
-# ------------------------------
+# =============================================
 # Used for raw binary data.
 # bytes → Immutable sequence of bytes
 # bytearray → Mutable sequence of bytes
@@ -110,7 +110,7 @@ print (type(c))
 
 
 # 7. None Type
-# ------------------------------------
+# =============================================
 # Represents the absence of a value.
 # None → A special type with a single value
 # x = None
